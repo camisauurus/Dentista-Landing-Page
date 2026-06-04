@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diseño de sonrisa de precisión, blanqueamiento láser y ortodoncia invisible. Dr. Julián Méndez - Odontología estética y de alta tecnología para jóvenes profesionales.">
+  <meta name="keywords" content="dentista, estetica dental, diseño de sonrisa, blanqueamiento dental, ortodoncia invisible, alineadores, clinica dental">
+  <meta name="author" content="Dr. Julián Méndez">
+  <title>Dr. Julián Méndez | Estética Dental & Tecnología Avanzada</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos Pura -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAV: BARRA DE NAVEGACIÓN
+       ========================================================================== -->
+  <nav class="navbar" aria-label="Navegación Principal">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" aria-label="Ir al inicio, Dr. Julián Méndez">
+        <!-- Ícono SVG Geométrico Premium que combina una Sonrisa y Tecnología -->
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z" fill="#4A6B82"/>
+          <path d="M7 11C7 11 8.5 14 12 14C15.5 14 17 11 17 11" stroke="#4A6B82" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="9" cy="9" r="1.5" fill="#4A6B82"/>
+          <circle cx="15" cy="9" r="1.5" fill="#4A6B82"/>
+        </svg>
+        <div>
+          <span class="logo-text">Dr. Julián Méndez</span>
+          <span class="logo-tagline">Estética Dental & Tecnología</span>
+        </div>
+      </a>
+
+      <!-- Menú de Enlaces Adaptativo -->
+      <div class="nav-menu" id="navMenu">
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#trayectoria" class="nav-link">Trayectoria</a>
+        <a href="#testimonios" class="nav-link">Testimonios</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </div>
+
+      <a href="#contacto" class="btn btn--primary" id="navCTA">Agendar Cita</a>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HEADER (HERO SECTION): PRESENTACIÓN
+       ========================================================================== -->
+  <header class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.48 2 12s4.477 10 10 10z"/>
+            <path d="M22 12H2"/>
+          </svg>
+          Tecnología y Estética Avanzada
+        </div>
+        <h1 class="hero-title">
+          Diseñamos sonrisas saludables y de <span>alta estética</span>
+        </h1>
+        <p class="hero-description">
+          Soy el Dr. Julián Méndez. En mi consulta independiente combino precisión digital, técnicas mínimamente invasivas y un enfoque clínico moderno para que logres la sonrisa que siempre deseaste en un espacio cálido y sin estrés.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn--primary">Reservar Evaluación</a>
+          <a href="#servicios" class="btn btn--secondary">Explorar Tratamientos</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <div class="hero-deco-box" aria-hidden="true"></div>
+        <div class="hero-image-wrapper">
+          <img src="assets/dentist_hero.png" alt="Retrato profesional del odontólogo Dr. Julián Méndez sonriendo en su clínica dental de estilo minimalista" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         SECCIÓN DE SERVICIOS (GRID DE TARJETAS)
+         ========================================================================== -->
+    <section class="services reveal" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Qué Hacemos</span>
+          <h2 class="section-title" id="services-title">Tratamientos Estéticos y Restaurativos</h2>
+        </div>
+        <div class="services-grid">
+          
+          <!-- Servicio 1 -->
+          <article class="service-card reveal">
+            <div class="service-card__img-wrapper">
+              <img src="assets/service_smile_design.png" alt="Paciente sonriendo cómodamente durante un procedimiento de planificación digital de diseño de sonrisa" class="service-card__img">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Diseño de Sonrisa</h3>
+              <p class="service-card__desc">
+                Planificación digital personalizada en 3D para restaurar y armonizar tu sonrisa mediante carillas ultrafinas de porcelana o resina compuesta de alta gama.
+              </p>
+              <a href="#contacto" class="service-card__cta" aria-label="Consultar sobre Diseño de Sonrisa">
+                Agendar consulta
+                <svg class="service-card__cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Servicio 2 -->
+          <article class="service-card reveal">
+            <div class="service-card__img-wrapper">
+              <img src="assets/service_laser_whitening.png" alt="Paciente relajado recibiendo un tratamiento tecnológico de blanqueamiento dental láser" class="service-card__img">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Blanqueamiento Láser</h3>
+              <p class="service-card__desc">
+                Resultados rápidos y duraderos en una sola sesión mediante el uso de geles bio-compatibles activados por láser, minimizando al máximo la sensibilidad.
+              </p>
+              <a href="#contacto" class="service-card__cta" aria-label="Consultar sobre Blanqueamiento Láser">
+                Agendar consulta
+                <svg class="service-card__cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Servicio 3 -->
+          <article class="service-card reveal">
+            <div class="service-card__img-wrapper">
+              <img src="assets/service_invisible_orthodontics.png" alt="Alineadores dentales transparentes mostrados por el dentista a un paciente feliz" class="service-card__img">
+            </div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Ortodoncia Invisible</h3>
+              <p class="service-card__desc">
+                Corrige la alineación de tus dientes mediante férulas plásticas transparentes, removibles y cómodas. Un proceso altamente estético e higiénico.
+              </p>
+              <a href="#contacto" class="service-card__cta" aria-label="Consultar sobre Ortodoncia Invisible">
+                Agendar consulta
+                <svg class="service-card__cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECCIÓN DE ESTUDIOS Y TRAYECTORIA
+         ========================================================================== -->
+    <section class="trayectoria reveal" id="trayectoria" aria-labelledby="trayectoria-title">
+      <div class="container trayectoria-layout">
+        <div class="trayectoria-info">
+          <span class="section-subtitle">Trayectoria</span>
+          <h2 class="section-title" id="trayectoria-title">Formación Académica y Excelencia</h2>
+          <p>
+            Para ofrecerte soluciones de vanguardia y resultados estéticos garantizados, mantengo un compromiso riguroso con la formación continua y las acreditaciones de mayor prestigio internacional.
+          </p>
+          <a href="#contacto" class="btn btn--primary">Conversar sobre mi Caso</a>
+        </div>
+        
+        <div class="studies-list">
+          
+          <!-- Carrera Universitaria (Pregrado) -->
+          <div class="study-item reveal">
+            <div class="study-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+              </svg>
+            </div>
+            <div class="study-content">
+              <span class="study-tag">Carrera Universitaria</span>
+              <h3 class="study-title">Licenciatura en Odontología</h3>
+              <p class="study-institution">Universidad de Chile | Distinción Máxima (Pregrado)</p>
+            </div>
+          </div>
+
+          <!-- Magíster -->
+          <div class="study-item reveal">
+            <div class="study-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div class="study-content">
+              <span class="study-tag">Magíster</span>
+              <h3 class="study-title">Magíster en Estética Dental y Rehabilitación Oral</h3>
+              <p class="study-institution">Universidad Internacional de Cataluña (UIC), España</p>
+            </div>
+          </div>
+
+          <!-- Diplomado 1 -->
+          <div class="study-item reveal">
+            <div class="study-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"/>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+              </svg>
+            </div>
+            <div class="study-content">
+              <span class="study-tag">Diplomado Especializado</span>
+              <h3 class="study-title">Diplomado en Estética Dental Adhesiva y Cosmética</h3>
+              <p class="study-institution">Advanced Dental Academy & Clinical Education</p>
+            </div>
+          </div>
+
+          <!-- Diplomado 2 -->
+          <div class="study-item reveal">
+            <div class="study-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="study-content">
+              <span class="study-tag">Diplomado Especializado</span>
+              <h3 class="study-title">Diplomado en Odontología Digital y Flujo 3D</h3>
+              <p class="study-institution">Colegio Profesional Dental de Santiago</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECCIÓN DE TESTIMONIOS (REALES Y CERCANOS)
+         ========================================================================== -->
+    <section class="testimonials reveal" id="testimonios" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Pacientes Satisfechos</span>
+          <h2 class="section-title" id="testimonials-title">Experiencias que Inspiran Confianza</h2>
+        </div>
+        <div class="testimonials-grid">
+          
+          <!-- Testimonio 1 -->
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="testimonial-stars" aria-label="Calificación 5 estrellas de 5">
+                <!-- 5 estrellas en SVG -->
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="testimonial-quote">
+                "La atención del Dr. Julián es espectacular. Me realicé el diseño de sonrisa en resina y captó exactamente lo que quería: algo natural, brillante y armónico. Además, la clínica transmite paz desde que entras."
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/avatar_1.png" alt="Sofía Rojas, paciente de Diseño de Sonrisa" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <p class="testimonial-name">Sofía Rojas</p>
+                <p class="testimonial-treatment">Paciente de Diseño de Sonrisa</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonio 2 -->
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="testimonial-stars" aria-label="Calificación 5 estrellas de 5">
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="testimonial-quote">
+                "Buscaba un blanqueamiento que no me dejara con sensibilidad extrema y el Dr. Julián usó una técnica láser muy moderna. El cambio fue increíble y el procedimiento súper cómodo. ¡Totalmente recomendado!"
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/avatar_2.png" alt="Martín Silva, paciente de Blanqueamiento Láser" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <p class="testimonial-name">Martín Silva</p>
+                <p class="testimonial-treatment">Paciente de Blanqueamiento Láser</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonio 3 -->
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="testimonial-stars" aria-label="Calificación 5 estrellas de 5">
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="star-icon" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="testimonial-quote">
+                "Llevar ortodoncia invisible con alineadores 3D ha sido comodísimo y nadie lo nota. El Dr. Julián hace un seguimiento digital súper estricto y siempre responde mis dudas. Excelente profesional."
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <img src="assets/avatar_3.png" alt="Camila Contreras, paciente de Ortodoncia Invisible" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <p class="testimonial-name">Camila Contreras</p>
+                <p class="testimonial-treatment">Paciente de Ortodoncia Invisible</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECCIÓN DE CONTACTO / AGENDA
+         ========================================================================== -->
+    <section class="contacto reveal" id="contacto" aria-labelledby="booking-title">
+      <div class="container contacto-grid">
+        
+        <!-- Info de contacto y horarios -->
+        <div class="contacto-info">
+          <h2 class="contacto-info__title" id="booking-title">Agenda tu Evaluación</h2>
+          <p class="contacto-info__desc">
+            Da el primer paso hacia la sonrisa que deseas. Completa el formulario de la derecha y me pondré en contacto contigo en menos de 24 horas hábiles para coordinar tu cita.
+          </p>
+          
+          <div class="contacto-details">
+            
+            <div class="contacto-detail-item">
+              <div class="contacto-detail-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div class="contacto-detail-content">
+                <h4>Teléfono / WhatsApp</h4>
+                <p>+56 9 1234 5678</p>
+              </div>
+            </div>
+
+            <div class="contacto-detail-item">
+              <div class="contacto-detail-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="contacto-detail-content">
+                <h4>Correo Electrónico</h4>
+                <p>contacto@drjulianmendez.cl</p>
+              </div>
+            </div>
+
+            <div class="contacto-detail-item">
+              <div class="contacto-detail-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="contacto-detail-content">
+                <h4>Ubicación</h4>
+                <p>Av. Vitacura 4320, Oficina 702, Vitacura, Santiago</p>
+              </div>
+            </div>
+
+            <div class="contacto-detail-item">
+              <div class="contacto-detail-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div class="contacto-detail-content">
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Viernes: 09:00 - 19:30 hrs</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Tarjeta del Formulario de reserva -->
+        <div class="booking-form-card">
+          <form action="#" method="POST" id="bookingForm" aria-label="Formulario de reserva de cita">
+            
+            <div class="form-group">
+              <label for="fullName" class="form-label">Nombre Completo *</label>
+              <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Ej: Carolina Lagos" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="emailAddr" class="form-label">Dirección de Correo Electrónico *</label>
+              <input type="email" id="emailAddr" name="emailAddr" class="form-control" placeholder="Ej: carolina@correo.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="procedureType" class="form-label">Procedimiento de Interés *</label>
+              <select id="procedureType" name="procedureType" class="form-control" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="diseno-sonrisa">Diseño de Sonrisa</option>
+                <option value="blanqueamiento">Blanqueamiento Láser</option>
+                <option value="ortodoncia-invisible">Ortodoncia Invisible</option>
+                <option value="consulta-general">Evaluación General / Diagnóstico</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage" class="form-label">Mensaje o Comentarios (Opcional)</label>
+              <textarea id="userMessage" name="userMessage" class="form-control" rows="4" placeholder="Cuéntame brevemente qué te gustaría mejorar de tu sonrisa..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn-form-submit">Enviar Solicitud de Cita</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         NUEVO: SECCIÓN DE PREGUNTAS FRECUENTES (FAQ ACCORDION)
+         ========================================================================== -->
+    <section class="faq-section reveal" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Dudas Comunes</span>
+          <h2 class="section-title" id="faq-title">Preguntas Frecuentes</h2>
+        </div>
+        <div class="faq-container">
+          
+          <details class="faq-accordion">
+            <summary class="faq-summary">¿El blanqueamiento láser produce sensibilidad dental?</summary>
+            <div class="faq-content">
+              <p>Es normal experimentar una sensibilidad leve y transitoria por 24 a 48 horas. Sin embargo, en nuestra consulta utilizamos geles protectores bio-compatibles y láser de última generación calibrado específicamente para minimizar al máximo cualquier molestia, haciendo el proceso sumamente seguro.</p>
+            </div>
+          </details>
+
+          <details class="faq-accordion">
+            <summary class="faq-summary">¿Cuánto tiempo toma completar un diseño de sonrisa?</summary>
+            <div class="faq-content">
+              <p>Depende del material seleccionado. El diseño de sonrisa con resinas compuestas estéticas de alta gama se realiza en una sola sesión (aproximadamente de 3 a 4 horas). Para carillas de porcelana, el proceso toma entre 2 y 3 citas coordinadas con nuestro laboratorio digital.</p>
+            </div>
+          </details>
+
+          <details class="faq-accordion">
+            <summary class="faq-summary">¿Qué ventajas ofrece la ortodoncia invisible frente a los brackets tradicionales?</summary>
+            <div class="faq-content">
+              <p>La principal ventaja es la estética: los alineadores transparentes son prácticamente imperceptibles. Además, son removibles, lo que te permite comer todo tipo de alimentos con normalidad y cepillarte con facilidad, manteniendo una higiene bucal impecable y libre de brackets molestos.</p>
+            </div>
+          </details>
+
+          <details class="faq-accordion">
+            <summary class="faq-summary">¿Tienen opciones o facilidades de pago para tratamientos de alta estética?</summary>
+            <div class="faq-content">
+              <p>Sí. Ofrecemos financiamiento flexible y pago en cuotas mensuales a lo largo del tratamiento (especialmente útil para ortodoncia invisible). Además, aceptamos tarjetas de crédito/débito y transferencias electrónicas directas.</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER: PIE DE PÁGINA
+       ========================================================================== -->
+  <footer class="site-footer" aria-label="Pie de página">
+    <div class="container">
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <h3 class="footer-logo-text">Dr. Julián Méndez</h3>
+          <p class="footer-brand-desc">
+            Odontología de alta precisión en un ambiente diseñado para tu total bienestar. Transformamos sonrisas con tecnología digital de vanguardia y máxima dedicación profesional.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">Enlaces</h4>
+          <a href="#inicio" class="footer-nav-link">Inicio</a>
+          <a href="#servicios" class="footer-nav-link">Servicios</a>
+          <a href="#trayectoria" class="footer-nav-link">Trayectoria</a>
+          <a href="#testimonios" class="footer-nav-link">Testimonios</a>
+          <a href="#contacto" class="footer-nav-link">Contacto</a>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">Sígueme</h4>
+          <div class="footer-socials">
+            <!-- Instagram -->
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram del Dr. Julián Méndez" target="_blank" rel="noopener">
+              <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn del Dr. Julián Méndez" target="_blank" rel="noopener">
+              <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook del Dr. Julián Méndez" target="_blank" rel="noopener">
+              <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 Dr. Julián Méndez. Todos los derechos reservados.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Políticas de Privacidad</a>
+          <a href="#" class="footer-bottom-link">Términos y Condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       NUEVO: BOTÓN FLOTANTE DE WHATSAPP
+       ========================================================================== -->
+  <a href="https://wa.me/56912345678?text=Hola%20Dr.%20Juli%C3%A1n,%20me%20gustar%C3%ADa%20agendar%20una%20evaluaci%C3%B3n%20dental." class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chatear por WhatsApp con Dr. Julián Méndez">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12.004 2c-5.51 0-9.993 4.483-9.993 9.993 0 1.763.461 3.486 1.336 5.003L2 22l5.163-1.353c1.474.805 3.13 1.233 4.836 1.233 5.51 0 9.996-4.482 9.996-9.99 0-2.668-1.039-5.176-2.927-7.064C17.185 3.04 14.675 2 12.004 2zm5.836 14.283c-.255.72-1.488 1.31-2.073 1.397-.565.083-1.288.115-2.083-.142-.519-.17-1.168-.423-1.956-.763-3.327-1.433-5.5-4.81-5.666-5.033-.166-.223-1.356-1.802-1.356-3.435 0-1.633.855-2.433 1.158-2.763.303-.33 1.058-.413 1.058-.413.22 0 .44 0 .633.01.22 0 .44-.083.687.522.256.63.854 2.083.928 2.23.073.148.11.33.01.522-.11.22-.193.33-.385.55-.193.22-.413.495-.59.688-.194.21-.403.44-.166.825.238.385 1.059 1.743 2.273 2.825.963.858 1.77 1.385 2.193 1.6.42.215.66.17.913-.115.257-.285 1.102-1.288 1.396-1.733.294-.44.587-.358.913-.23.33.12 2.09.986 2.457 1.17.367.185.614.275.697.417.082.143.082.825-.174 1.545z"/>
+    </svg>
+  </a>
+
+  <!-- ==========================================================================
+       NUEVO: MODAL DE CONFIRMACIÓN DE RESERVA
+       ========================================================================== -->
+  <div class="modal" id="successModal" aria-hidden="true" role="dialog">
+    <div class="modal-dialog">
+      <button class="modal-close" id="closeModalBtn" aria-label="Cerrar ventana de confirmación">&times;</button>
+      <div class="modal-success-icon">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+      </div>
+      <h3 class="modal-title">¡Solicitud Enviada!</h3>
+      <p class="modal-text">
+        Tu solicitud de cita ha sido recibida correctamente. Nos comunicaremos contigo en menos de 24 horas hábiles para coordinar la fecha y hora de tu evaluación.
+      </p>
+      <button class="btn btn--primary" id="confirmModalBtn">Entendido</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       LÓGICA INTERACTIVA EN JAVASCRIPT
+       ========================================================================== -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      
+      // 1. REVELADO AL HACER SCROLL (INTERSECTION OBSERVER)
+      const revealItems = document.querySelectorAll(".reveal");
+      const observerOptions = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.12 // Activar cuando el 12% del elemento sea visible
+      };
+
+      const scrollObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal--active");
+            observer.unobserve(entry.target); // Animación de una sola vez
+          }
+        });
+      }, observerOptions);
+
+      revealItems.forEach(item => {
+        scrollObserver.observe(item);
+      });
+
+
+      // 2. INTERCEPTAR FORMULARIO Y MOSTRAR MODAL
+      const bookingForm = document.getElementById("bookingForm");
+      const successModal = document.getElementById("successModal");
+      const closeModalBtn = document.getElementById("closeModalBtn");
+      const confirmModalBtn = document.getElementById("confirmModalBtn");
+
+      bookingForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        
+        // Simulación exitosa de envío (aquí se conectarían los datos de backend)
+        successModal.classList.add("modal--open");
+        successModal.setAttribute("aria-hidden", "false");
+        bookingForm.reset();
+      });
+
+      function closeModal() {
+        successModal.classList.remove("modal--open");
+        successModal.setAttribute("aria-hidden", "true");
+      }
+
+      closeModalBtn.addEventListener("click", closeModal);
+      confirmModalBtn.addEventListener("click", closeModal);
+
+      // Cerrar al hacer clic en el backdrop oscuro
+      successModal.addEventListener("click", (e) => {
+        if (e.target === successModal) {
+          closeModal();
+        }
+      });
+      
+    });
+  </script>
+
+</body>
+</html>
